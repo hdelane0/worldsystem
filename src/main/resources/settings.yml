@@ -20,7 +20,7 @@ worldborder:
     y: 20
     z: 0
 
-difficulty: EASY
+difficulty: NORMAL
 
 
 # Commands that should be executed on /ws get when it is ready
@@ -37,7 +37,7 @@ commands_on_get:
 # https://minecraft.gamepedia.com/Commands/gamerule
 
 announceAdvancements: true
-commandBlockOutput: false
+commandBlockOutput: true
 disableElytraMovementCheck: false
 doDaylightCycle: true
 doEntityDrops: true
@@ -46,7 +46,7 @@ doLimitedCrafting: false
 doMobLoot: true
 doMobSpawning: true
 doTileDrops: true
-doWeatherCycle: false
+doWeatherCycle: true
 gameLoopFunction: false
 keepInventory: true
 logAdminCommands: true
